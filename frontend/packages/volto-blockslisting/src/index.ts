@@ -8,7 +8,6 @@ import BlocksSearch from './components/BlocksSearch/BlocksSearch';
 function applyConfig(config: ConfigType) {
   installSettings(config);
 
-  config.settings.isMultilingual = false;
   config.addonReducers = {
     ...config.addonReducers,
     searchBlocks: searchBlocksReducer,
