@@ -7,7 +7,7 @@
       method="GET"
       factory=".get.SearchBlocksGet"
       for="zope.interface.Interface"
-      permission="zope2.View"
+      permission="collective.blockslisting.SearchBlocks"
       layer="collective.blockslisting.interfaces.IBrowserLayer"
       name="@search-blocks"
       />

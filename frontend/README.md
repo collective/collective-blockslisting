@@ -1,15 +1,21 @@
 # Blocks listing (volto-blockslisting)
 
-Additional control-panel that allow users to search which contents using a specific block
+A Volto add-on that provides a control panel for searching and managing content that uses specific blocks.
 
 [![npm](https://img.shields.io/npm/v/volto-blockslisting)](https://www.npmjs.com/package/volto-blockslisting)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://collective.github.io/volto-blockslisting/)
 [![CI](https://github.com/collective/collective-blockslisting/actions/workflows/main.yml/badge.svg)](https://github.com/collective/collective-blockslisting/actions/workflows/main.yml)
 
 
-## Features
+## Features ✨
 
-<!-- List your awesome features here -->
+- **Search Blocks Control Panel**: Dedicated control panel view for searching content by block types
+- **Table Display**: Results displayed in a sortable table with key metadata
+- **Pagination**: Navigate through results with configurable page sizes (default, 50, or all)
+- **Block Type Selection**: Dropdown selector for choosing which block type to search for
+- **Multilingual Support**: Full i18n support with Italian translation included
+- **Error Handling**: Comprehensive error displays for API failures
+- **Semantic UI Integration**: Uses Volto's standard Semantic UI components for consistent styling
 
 ## Installation
 

@@ -9,6 +9,8 @@ const initialState = {
   items: [],
   total: 0,
   block_types: [],
+  batching: null,
+  b_start: 0,
   loaded: false,
   loading: false,
 };
@@ -29,6 +31,8 @@ export default function searchBlocks(state = initialState, action = {}) {
         items: action.result.items || [],
         total: action.result.items_total || 0,
         block_types: action.result.block_types || [],
+        batching: action.result.batching || null,
+        b_start: action.result.b_start || 0,
         loaded: true,
         loading: false,
       };

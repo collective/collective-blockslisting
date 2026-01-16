@@ -1,10 +1,15 @@
 # collective.blockslisting
 
-Additional control-panel that allow users to search which contents using a specific block
+A comprehensive Plone add-on that provides search functionality for content using specific blocks.
 
-## Features
+## Features ✨
 
-TODO: List our awesome features
+- **Block Search Endpoint**: RESTful API endpoint (`/@search-blocks`) for searching content by block types
+- **Security**: Permission-based access control for the search API
+- **Catalog Integration**: Uses Plone's catalog for efficient searching
+- **Metadata Support**: Returns rich metadata including title, type, review state, creation and modification dates
+- **Pagination**: Support for batched results with configurable page sizes
+- **Sorting**: Results sorted by title for consistent ordering
 
 ## Installation
 
@@ -62,6 +67,8 @@ Parameters:
 - `block_types` (string): The block type to search for.
 - `b_size` (int): Batch size (pagination).
 - `b_start` (int): Batch start index (pagination).
+- `sort_on` (string, automatic): Sorts results by `sortable_title` (automatically added).
+- `metadata_fields` (list, automatic): Includes `modified` and `created` metadata fields (automatically added).
 
 ## Contribute
 

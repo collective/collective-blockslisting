@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2026-01-16 14:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,3 +13,27 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+
+#: collective/blockslisting/profiles.zcml:22
+msgid "Blocks listing: Example content"
+msgstr ""
+
+#: collective/blockslisting/profiles.zcml:13
+msgid "Blocks listing: Install"
+msgstr ""
+
+#: collective/blockslisting/profiles.zcml:30
+msgid "Blocks listing: Uninstall"
+msgstr ""
+
+#: collective/blockslisting/profiles.zcml:22
+msgid "Create example content to showcase the new website"
+msgstr ""
+
+#: collective/blockslisting/profiles.zcml:13
+msgid "Package to configure a new Blocks listing site"
+msgstr ""
+
+#: collective/blockslisting/profiles.zcml:30
+msgid "Uninstall Blocks listing setup."
+msgstr ""

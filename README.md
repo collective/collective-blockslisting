@@ -4,7 +4,16 @@
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![CI](https://github.com/collective/collective-blockslisting/actions/workflows/main.yml/badge.svg)](https://github.com/collective/collective-blockslisting/actions/workflows/main.yml)
 
-Additional control-panel that allow users to search which contents using a specific block
+A comprehensive solution for searching and managing content that uses specific blocks in Plone and Volto.
+
+## Features ✨
+
+- **Search Blocks**: Search for content using specific block types
+- **Control Panel**: Dedicated control panel interface for searching blocks
+- **Pagination**: Navigate through search results with configurable page sizes
+- **Multilingual Support**: Support for multiple languages (Italian included)
+- **Error Handling**: Comprehensive error handling and user feedback
+- **REST API**: RESTful endpoint for programmatic access to block search functionality
 
 ## Quick Start 🏁
 

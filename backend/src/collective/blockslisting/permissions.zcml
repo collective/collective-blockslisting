@@ -4,6 +4,9 @@
     i18n_domain="collective.blockslisting"
     >
 
-  <!-- -*- extra stuff goes here -*- -->
+  <permission
+      id="collective.blockslisting.SearchBlocks"
+      title="collective.blockslisting: Search Blocks"
+      />
 
 </configure>

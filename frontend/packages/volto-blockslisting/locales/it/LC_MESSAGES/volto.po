@@ -1,89 +1,88 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2026-01-16T14:40:13.346Z\n"
-"Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
-"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-16T00:00:00.000Z\n"
+"PO-Revision-Date: 2025-01-16\n"
+"Last-Translator: \n"
+"Language: it\n"
+"Language-Team: Italian\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
-"Preferred-Encodings: utf-8\n"
-"Domain: volto\n"
 
 #. Default: "Back to Control Panel"
 #: components/SearchBlocks/SearchBlocks
 msgid "Back to Control Panel"
-msgstr ""
+msgstr "Torna al Pannello di Controllo"
 
 #. Default: "Block Type"
 #: components/SearchBlocks/SearchBlocks
 msgid "Block Type"
-msgstr ""
+msgstr "Tipo di Blocco"
 
-#. Default: "Blocks Search"
+#. Default: "Search blocks"
 #: components/SearchBlocks/SearchBlocks
-msgid "Blocks Search"
-msgstr ""
+msgid "Search blocks"
+msgstr "Ricerca blocchi"
 
-#. Default: "Blocks search"
+#. Default: "Search blocks"
 #: config/settings
-msgid "Blocks search"
-msgstr ""
+msgid "Search blocks"
+msgstr "Ricerca blocchi"
 
 #. Default: "Choose a block type"
 #: components/SearchBlocks/SearchBlocks
 msgid "Choose a block type"
-msgstr ""
+msgstr "Scegli un tipo di blocco"
 
 #. Default: "Created"
 #: components/SearchBlocks/SearchBlocks
 msgid "Created"
-msgstr ""
+msgstr "Creato"
 
 #. Default: "Loading..."
 #: components/SearchBlocks/SearchBlocks
 msgid "Loading"
-msgstr ""
+msgstr "Caricamento in corso..."
 
 #. Default: "Modified"
 #: components/SearchBlocks/SearchBlocks
 msgid "Modified"
-msgstr ""
+msgstr "Modificato"
 
 #. Default: "No results found for"
 #: components/SearchBlocks/SearchBlocks
 msgid "No results found for"
-msgstr ""
+msgstr "Nessun risultato trovato per"
 
 #. Default: "On this page you can see which contents on the site use a specific block"
 #: components/SearchBlocks/SearchBlocks
 msgid "On this page you can see which contents on the site use a specific block"
-msgstr ""
+msgstr "In questa pagina puoi vedere quali contenuti del sito utilizzano un determinato blocco"
 
 #. Default: "Results"
 #: components/SearchBlocks/SearchBlocks
 msgid "Results"
-msgstr ""
+msgstr "Risultati"
 
 #. Default: "Review State"
 #: components/SearchBlocks/SearchBlocks
 msgid "Review State"
-msgstr ""
+msgstr "Stato di Revisione"
 
 #. Default: "Select Block Type:"
 #: components/SearchBlocks/SearchBlocks
 msgid "Select Block Type"
-msgstr ""
+msgstr "Seleziona Tipo di Blocco"
 
 #. Default: "Title"
 #: components/SearchBlocks/SearchBlocks
 msgid "Title"
-msgstr ""
+msgstr "Titolo"
 
 #. Default: "Type"
 #: components/SearchBlocks/SearchBlocks
 msgid "Type"
-msgstr ""
+msgstr "Tipo"

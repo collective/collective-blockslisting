@@ -10,3 +10,78 @@ msgstr ""
 "Content-Type: \n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. Default: "Back to Control Panel"
+#: components/BlocksSearch/BlocksSearch
+msgid "Back to Control Panel"
+msgstr ""
+
+#. Default: "Block Type"
+#: components/BlocksSearch/BlocksSearch
+msgid "Block Type"
+msgstr ""
+
+#. Default: "Blocks Search"
+#: components/BlocksSearch/BlocksSearch
+msgid "Blocks Search"
+msgstr ""
+
+#. Default: "Blocks search"
+#: config/settings
+msgid "Blocks search"
+msgstr ""
+
+#. Default: "Choose a block type"
+#: components/BlocksSearch/BlocksSearch
+msgid "Choose a block type"
+msgstr ""
+
+#. Default: "Created"
+#: components/BlocksSearch/BlocksSearch
+msgid "Created"
+msgstr ""
+
+#. Default: "Loading..."
+#: components/BlocksSearch/BlocksSearch
+msgid "Loading"
+msgstr ""
+
+#. Default: "Modified"
+#: components/BlocksSearch/BlocksSearch
+msgid "Modified"
+msgstr ""
+
+#. Default: "No results found for"
+#: components/BlocksSearch/BlocksSearch
+msgid "No results found for"
+msgstr ""
+
+#. Default: "On this page you can see which contents on the site use a specific block"
+#: components/BlocksSearch/BlocksSearch
+msgid "On this page you can see which contents on the site use a specific block"
+msgstr ""
+
+#. Default: "Results"
+#: components/BlocksSearch/BlocksSearch
+msgid "Results"
+msgstr ""
+
+#. Default: "Review State"
+#: components/BlocksSearch/BlocksSearch
+msgid "Review State"
+msgstr ""
+
+#. Default: "Select Block Type:"
+#: components/BlocksSearch/BlocksSearch
+msgid "Select Block Type"
+msgstr ""
+
+#. Default: "Title"
+#: components/BlocksSearch/BlocksSearch
+msgid "Title"
+msgstr ""
+
+#. Default: "Type"
+#: components/BlocksSearch/BlocksSearch
+msgid "Type"
+msgstr ""
