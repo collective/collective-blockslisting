@@ -2,14 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
-import {
-  Container,
-  Segment,
-  Header,
-  Button,
-  Dropdown,
-  Table,
-} from 'semantic-ui-react';
+import { Container, Segment, Header, Dropdown, Table } from 'semantic-ui-react';
 import { Helmet } from '@plone/volto/helpers';
 import Toolbar from '@plone/volto/components/manage/Toolbar/Toolbar';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
@@ -98,7 +91,12 @@ const SearchBlocks = (props) => {
 
   useEffect(() => {
     // Initial fetch to get block types
-    dispatch(searchBlocks());
+    dispatch(
+      searchBlocks({
+        b_start: b_start * currentPageSize,
+      }),
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch]);
 
   if (error) {
