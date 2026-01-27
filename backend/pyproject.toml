@@ -3,7 +3,7 @@ name = "collective.blockslisting"
 dynamic = ["version"]
 description = "Additional control-panel that allow users to search which contents using a specific block"
 readme = "README.md"
-license = "GPL-2.0-only"
+license = { text = "GPL-2.0-only" }
 requires-python = ">=3.12"
 authors = [
     { name = "RedTurtle Technology", email = "sviluppo@redturtle.it" },
@@ -58,6 +58,12 @@ path = "src/collective/blockslisting/__init__.py"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+version = {attr = "collective.blockslisting.__version__"}
 
 [tool.hatch.build]
 strict-naming = true
