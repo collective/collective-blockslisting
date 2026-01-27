@@ -4,7 +4,7 @@ dynamic = ["version"]
 description = "Additional control-panel that allow users to search which contents using a specific block"
 readme = "README.md"
 license = { text = "GPL-2.0-only" }
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 authors = [
     { name = "RedTurtle Technology", email = "sviluppo@redturtle.it" },
 ]
@@ -20,7 +20,11 @@ classifiers = [
     "Framework :: Plone :: Addon",
     "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     "Operating System :: OS Independent",
-    "Programming Language :: Python","Programming Language :: Python :: 3.12",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
     "Products.CMFPlone==6.1.3",
