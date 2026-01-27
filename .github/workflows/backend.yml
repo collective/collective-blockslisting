@@ -61,7 +61,7 @@ jobs:
         - name: Check Python Versions
           if: ${{ success() || failure() }}
           id: py-versions
-          run: uvx check-python-versions@latest .
+          run: uvx check-python-versions@latest --only pyproject.toml .
 
         - name: Report
           if: ${{ success() || failure() }}
