@@ -12,76 +12,72 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. Default: "Back to Control Panel"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Back to Control Panel"
 msgstr ""
 
 #. Default: "Block Type"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Block Type"
 msgstr ""
 
-#. Default: "Blocks Search"
-#: components/BlocksSearch/BlocksSearch
-msgid "Blocks Search"
-msgstr ""
-
-#. Default: "Blocks search"
-#: config/settings
-msgid "Blocks search"
-msgstr ""
-
 #. Default: "Choose a block type"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Choose a block type"
 msgstr ""
 
 #. Default: "Created"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Created"
 msgstr ""
 
 #. Default: "Loading..."
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Loading"
 msgstr ""
 
 #. Default: "Modified"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Modified"
 msgstr ""
 
 #. Default: "No results found for"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "No results found for"
 msgstr ""
 
 #. Default: "On this page you can see which contents on the site use a specific block"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "On this page you can see which contents on the site use a specific block"
 msgstr ""
 
 #. Default: "Results"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Results"
 msgstr ""
 
 #. Default: "Review State"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Review State"
 msgstr ""
 
+#. Default: "Search blocks"
+#: components/SearchBlocks/SearchBlocks
+#: config/settings
+msgid "Search blocks"
+msgstr ""
+
 #. Default: "Select Block Type:"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Select Block Type"
 msgstr ""
 
 #. Default: "Title"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Title"
 msgstr ""
 
 #. Default: "Type"
-#: components/BlocksSearch/BlocksSearch
+#: components/SearchBlocks/SearchBlocks
 msgid "Type"
 msgstr ""

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2026-01-16T14:40:13.346Z\n"
+"POT-Creation-Date: 2026-01-27T12:21:38.702Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -21,16 +21,6 @@ msgstr ""
 #. Default: "Block Type"
 #: components/SearchBlocks/SearchBlocks
 msgid "Block Type"
-msgstr ""
-
-#. Default: "Blocks Search"
-#: components/SearchBlocks/SearchBlocks
-msgid "Blocks Search"
-msgstr ""
-
-#. Default: "Blocks search"
-#: config/settings
-msgid "Blocks search"
 msgstr ""
 
 #. Default: "Choose a block type"
@@ -71,6 +61,12 @@ msgstr ""
 #. Default: "Review State"
 #: components/SearchBlocks/SearchBlocks
 msgid "Review State"
+msgstr ""
+
+#. Default: "Search blocks"
+#: components/SearchBlocks/SearchBlocks
+#: config/settings
+msgid "Search blocks"
 msgstr ""
 
 #. Default: "Select Block Type:"

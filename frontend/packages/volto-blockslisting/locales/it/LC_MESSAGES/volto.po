@@ -22,16 +22,6 @@ msgstr "Torna al Pannello di Controllo"
 msgid "Block Type"
 msgstr "Tipo di Blocco"
 
-#. Default: "Search blocks"
-#: components/SearchBlocks/SearchBlocks
-msgid "Search blocks"
-msgstr "Ricerca blocchi"
-
-#. Default: "Search blocks"
-#: config/settings
-msgid "Search blocks"
-msgstr "Ricerca blocchi"
-
 #. Default: "Choose a block type"
 #: components/SearchBlocks/SearchBlocks
 msgid "Choose a block type"
@@ -71,6 +61,12 @@ msgstr "Risultati"
 #: components/SearchBlocks/SearchBlocks
 msgid "Review State"
 msgstr "Stato di Revisione"
+
+#. Default: "Search blocks"
+#: components/SearchBlocks/SearchBlocks
+#: config/settings
+msgid "Search blocks"
+msgstr "Ricerca blocchi"
 
 #. Default: "Select Block Type:"
 #: components/SearchBlocks/SearchBlocks
