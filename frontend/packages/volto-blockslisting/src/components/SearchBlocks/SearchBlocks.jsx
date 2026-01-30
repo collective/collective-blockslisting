@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
-import { Container, Segment, Header, Dropdown, Table } from 'semantic-ui-react';
+import { Container, Segment, Header, Table } from 'semantic-ui-react';
 import { Helmet } from '@plone/volto/helpers';
+import { SelectWidget } from '@plone/volto/components';
 import Toolbar from '@plone/volto/components/manage/Toolbar/Toolbar';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import Pagination from '@plone/volto/components/theme/Pagination/Pagination';
@@ -156,18 +157,15 @@ const SearchBlocks = (props) => {
             <label style={{ display: 'block', marginBottom: '0.5rem' }}>
               <FormattedMessage {...messages.selectBlockType} />
             </label>
-            <Dropdown
-              placeholder={intl.formatMessage(messages.chooseBlockType)}
-              selection
-              options={
-                block_types?.map((type) => ({
-                  key: type,
-                  text: type,
-                  value: type,
-                })) || []
-              }
-              onChange={(e, { value }) => handleSelect(value)}
+            <SelectWidget
+              id="block_type"
+              title={intl.formatMessage(messages.blockTypeLabel)}
+              required={false}
               value={selectedBlockType || ''}
+              onChange={(id, value) => handleSelect(value)}
+              choices={block_types?.map((type) => [type, type]) || []}
+              wrapped={false}
+              isClearable={false}
             />
           </div>
         </Segment>

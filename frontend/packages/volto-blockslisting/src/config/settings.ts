@@ -10,11 +10,6 @@ const messages = defineMessages({
 });
 
 export default function install(config: ConfigType) {
-  // Language settings
-  config.settings.isMultilingual = false;
-  config.settings.supportedLanguages = ['it'];
-  config.settings.defaultLanguage = 'it';
-
   config.settings.controlpanels = [
     ...config.settings.controlpanels,
     {
