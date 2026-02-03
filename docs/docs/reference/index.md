@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "Blocks listing Reference"
-    "property=og:description": "Blocks listing Reference"
-    "property=og:title": "Blocks listing Reference"
-    "keywords": "Plone, _Blocks listing,_ reference"
+    "description": "Search blocks Reference"
+    "property=og:description": "Search blocks Reference"
+    "property=og:title": "Search blocks Reference"
+    "keywords": "Plone, _Search blocks,_ reference"
 ---
 
 # Reference

@@ -11,8 +11,8 @@ MAKEFLAGS+=--no-builtin-rules
 CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 GIT_FOLDER=$(CURRENT_DIR)/.git
 
-PROJECT_NAME=collective-blockslisting
-STACK_NAME=collective-blockslisting-example-com
+PROJECT_NAME=collective-searchblocks
+STACK_NAME=collective-searchblocks-example-com
 
 VOLTO_VERSION=$(shell cat frontend/mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
 PLONE_VERSION=$(shell cat backend/version.txt)
@@ -152,7 +152,7 @@ stack-create-site:  ## Local Stack: Create a new site
 stack-start:  ## Local Stack: Start Services
 	@echo "Start local Docker stack"
 	VOLTO_VERSION=$(VOLTO_VERSION) PLONE_VERSION=$(PLONE_VERSION) docker compose -f docker-compose.yml up -d --build
-	@echo "Now visit: http://collective-blockslisting.localhost"
+	@echo "Now visit: http://collective-searchblocks.localhost"
 
 .PHONY: stack-status
 stack-status:  ## Local Stack: Check Status
@@ -193,12 +193,12 @@ acceptance-test:
 .PHONY: acceptance-frontend-image-build
 acceptance-frontend-image-build:
 	@echo "Build acceptance frontend image"
-	@docker build frontend -t collective/collective-blockslisting-frontend:acceptance -f frontend/Dockerfile --build-arg VOLTO_VERSION=$(VOLTO_VERSION)
+	@docker build frontend -t collective/collective-searchblocks-frontend:acceptance -f frontend/Dockerfile --build-arg VOLTO_VERSION=$(VOLTO_VERSION)
 
 .PHONY: acceptance-backend-image-build
 acceptance-backend-image-build:
 	@echo "Build acceptance backend image"
-	@docker build backend -t collective/collective-blockslisting-backend:acceptance -f backend/Dockerfile.acceptance --build-arg PLONE_VERSION=$(PLONE_VERSION)
+	@docker build backend -t collective/collective-searchblocks-backend:acceptance -f backend/Dockerfile.acceptance --build-arg PLONE_VERSION=$(PLONE_VERSION)
 
 .PHONY: acceptance-images-build
 acceptance-images-build: ## Build Acceptance frontend/backend images
@@ -208,12 +208,12 @@ acceptance-images-build: ## Build Acceptance frontend/backend images
 .PHONY: acceptance-frontend-container-start
 acceptance-frontend-container-start:
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name collective-blockslisting-frontend-acceptance --link collective-blockslisting-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d collective/collective-blockslisting-frontend:acceptance
+	@docker run --rm -p 3000:3000 --name collective-searchblocks-frontend-acceptance --link collective-searchblocks-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d collective/collective-searchblocks-frontend:acceptance
 
 .PHONY: acceptance-backend-container-start
 acceptance-backend-container-start:
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name collective-blockslisting-backend-acceptance -d collective/collective-blockslisting-backend:acceptance
+	@docker run --rm -p 55001:55001 --name collective-searchblocks-backend-acceptance -d collective/collective-searchblocks-backend:acceptance
 
 .PHONY: acceptance-containers-start
 acceptance-containers-start: ## Start Acceptance containers
@@ -223,8 +223,8 @@ acceptance-containers-start: ## Start Acceptance containers
 .PHONY: acceptance-containers-stop
 acceptance-containers-stop: ## Stop Acceptance containers
 	@echo "Stop acceptance containers"
-	@docker stop collective-blockslisting-frontend-acceptance
-	@docker stop collective-blockslisting-backend-acceptance
+	@docker stop collective-searchblocks-frontend-acceptance
+	@docker stop collective-searchblocks-backend-acceptance
 
 .PHONY: ci-acceptance-test
 ci-acceptance-test:

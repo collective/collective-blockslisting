@@ -11,7 +11,7 @@ See [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/).
 ### Step 1: Add the deployment environment variables
 
 1.  Visit [GitLab](https://gitlab.com/), or your organization's GitLab instance, and log in with your credentials.
-2.  Go to your repository at [collective/collective-blockslisting](https://gitlab.com/collective/collective-blockslisting).
+2.  Go to your repository at [collective/collective-searchblocks](https://gitlab.com/collective/collective-searchblocks).
     Note that you might need to adjust the URL's host name to your organization's.
 3.  Click on `Settings` at the left menu and select `CI/CD`.
 4.  Expand the `Variables`.

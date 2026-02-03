@@ -1,11 +1,9 @@
-name: Manual Deployment of collective-blockslisting.example.com
+name: Manual Deployment of collective-searchblocks.example.com
 
 on:
   workflow_dispatch:
 
-
 jobs:
-
   meta:
     runs-on: ubuntu-latest
     outputs:
@@ -35,7 +33,7 @@ jobs:
       - name: Deploy to cluster
         uses: kitconcept/docker-stack-deploy@v1.2.0
         with:
-          registry: "ghcr.io"
+          registry: 'ghcr.io'
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           remote_host: ${{ secrets.DEPLOY_HOST }}

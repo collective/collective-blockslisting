@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "Blocks listing Tutorials"
-    "property=og:description": "Blocks listing Tutorials"
-    "property=og:title": "Blocks listing Tutorials"
-    "keywords": "Plone, Blocks listing, tutorials"
+    "description": "Search blocks Tutorials"
+    "property=og:description": "Search blocks Tutorials"
+    "property=og:title": "Search blocks Tutorials"
+    "keywords": "Plone, Search blocks, tutorials"
 ---
 
 # Tutorials

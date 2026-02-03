@@ -3,13 +3,13 @@ myst:
   html_meta:
     "description": "Additional control-panel that allow users to search which contents using a specific block"
     "property=og:description": "Additional control-panel that allow users to search which contents using a specific block"
-    "property=og:title": "Blocks listing"
-    "keywords": "Blocks listing, documentation, Additional control-panel that allow users to search which contents using a specific block"
+    "property=og:title": "Search blocks"
+    "keywords": "Search blocks, documentation, Additional control-panel that allow users to search which contents using a specific block"
 ---
 
-# Blocks listing
+# Search blocks
 
-Welcome to the documentation for Blocks listing!
+Welcome to the documentation for Search blocks!
 Additional control-panel that allow users to search which contents using a specific block
 
 This scaffold provides a ready-to-use environment for creating comprehensive documentation for {term}`Plone` projects, based on {term}`Plone Sphinx Theme`.

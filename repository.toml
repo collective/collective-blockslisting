@@ -1,5 +1,5 @@
 [repository]
-name = "collective-blockslisting"
+name = "collective-searchblocks"
 managed_by_uv = false
 changelog = "CHANGELOG.md"
 version = "version.txt"
@@ -13,7 +13,7 @@ settings = "towncrier.toml"
 path = "backend"
 
 [backend.package]
-name = "collective.blockslisting"
+name = "collective.searchblocks"
 path = "backend"
 changelog = "backend/CHANGELOG.md"
 towncrier_settings = "backend/pyproject.toml"
@@ -24,10 +24,10 @@ publish = false
 path = "frontend"
 
 [frontend.package]
-name = "volto-blockslisting"
-path = "frontend/packages/volto-blockslisting"
-changelog = "frontend/packages/volto-blockslisting/CHANGELOG.md"
-towncrier_settings = "frontend/packages/volto-blockslisting/towncrier.toml"
+name = "volto-searchblocks"
+path = "frontend/packages/volto-searchblocks"
+changelog = "frontend/packages/volto-searchblocks/CHANGELOG.md"
+towncrier_settings = "frontend/packages/volto-searchblocks/towncrier.toml"
 base_package = "@plone/volto"
 publish = false
 

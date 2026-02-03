@@ -7,7 +7,7 @@ myst:
     "keywords": "Plone, documentation, glossary, term, definition"
 ---
 
-This glossary provides example terms and definitions relevant to **Blocks listing**.
+This glossary provides example terms and definitions relevant to **Search blocks**.
 Additional control-panel that allow users to search which contents using a specific block
 
 ```{note}

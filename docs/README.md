@@ -1,6 +1,6 @@
-# Blocks listing
+# Search blocks
 
-Documentation for Blocks listing.
+Documentation for Search blocks.
 Additional control-panel that allow users to search which contents using a specific block
 
 This project provides a Sphinx-based documentation environment for your Plone project, powered by the [Plone Sphinx Theme](https://github.com/plone/plone-sphinx-theme).
@@ -59,7 +59,7 @@ make help
 ```
 
 
-## Customize the Blocks listing documentation
+## Customize the Search blocks documentation
 
 This section provides how-to guidance to customize your documentation.
 
