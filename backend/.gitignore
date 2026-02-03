@@ -44,5 +44,6 @@ var/
 constraints*.txt
 requirements*.txt
 
-src/collective
-!src/collective/searchblocks
+src/collective/*
+!src/collective/
+!src/collective/searchblocks/
