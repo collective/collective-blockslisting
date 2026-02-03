@@ -1,6 +1,6 @@
 {
   "name": "@redturtle/volto-searchblocks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Additional control-panel that allow users to search which contents using a specific block",
   "main": "src/index.ts",
   "license": "MIT",
