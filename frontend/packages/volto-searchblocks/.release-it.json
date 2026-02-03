@@ -13,7 +13,7 @@
     "after:release": "rm .changelog.draft README.md"
   },
   "npm": {
-    "publish": false
+    "publish": true
   },
   "plonePrePublish": {
     "publish": false
