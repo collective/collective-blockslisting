@@ -1,6 +1,6 @@
-from collective.blockslisting.testing import ACCEPTANCE_TESTING
-from collective.blockslisting.testing import FUNCTIONAL_TESTING
-from collective.blockslisting.testing import INTEGRATION_TESTING
+from collective.searchblocks.testing import ACCEPTANCE_TESTING
+from collective.searchblocks.testing import FUNCTIONAL_TESTING
+from collective.searchblocks.testing import INTEGRATION_TESTING
 from plone import api
 from plone.restapi.testing import RelativeSession
 from pytest_plone import fixtures_factory
@@ -12,11 +12,13 @@ import transaction
 pytest_plugins = ["pytest_plone"]
 
 globals().update(
-    fixtures_factory((
-        (INTEGRATION_TESTING, "integration"),
-        (FUNCTIONAL_TESTING, "functional"),
-        (ACCEPTANCE_TESTING, "acceptance"),
-    ))
+    fixtures_factory(
+        (
+            (INTEGRATION_TESTING, "integration"),
+            (FUNCTIONAL_TESTING, "functional"),
+            (ACCEPTANCE_TESTING, "acceptance"),
+        )
+    )
 )
 
 

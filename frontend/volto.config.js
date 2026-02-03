@@ -1,7 +1,7 @@
-const addons = ['volto-blockslisting'];
+const addons = ['volto-searchblocks'];
 const theme = '';
 
 module.exports = {
   addons,
-  theme
+  theme,
 };

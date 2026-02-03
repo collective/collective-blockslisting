@@ -1,5 +1,5 @@
 from AccessControl.SecurityManagement import newSecurityManager
-from collective.blockslisting.interfaces import IBrowserLayer
+from collective.searchblocks.interfaces import IBrowserLayer
 from Products.CMFPlone.factory import _DEFAULT_PROFILE
 from Products.CMFPlone.factory import addPloneSite
 from Products.GenericSetup.tool import SetupTool
@@ -45,7 +45,7 @@ newSecurityManager(None, admin)
 
 site_id = "Plone"
 payload = {
-    "title": "Blocks listing",
+    "title": "Search blocks",
     "profile_id": _DEFAULT_PROFILE,
     "distribution_name": "volto",
     "setup_content": False,
@@ -63,14 +63,12 @@ if site_id not in app.objectIds():
     transaction.commit()
 
     portal_setup: SetupTool = site.portal_setup
-    portal_setup.runAllImportStepsFromProfile(
-        "profile-collective.blockslisting:default"
-    )
+    portal_setup.runAllImportStepsFromProfile("profile-collective.searchblocks:default")
     transaction.commit()
 
     if EXAMPLE_CONTENT:
         portal_setup.runAllImportStepsFromProfile(
-            "profile-collective.blockslisting:initial"
+            "profile-collective.searchblocks:initial"
         )
         transaction.commit()
     app._p_jar.sync()

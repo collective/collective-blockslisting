@@ -1,5 +1,5 @@
 {
-  "name": "volto-blockslisting",
+  "name": "volto-searchblocks",
   "version": "1.0.0-alpha.0",
   "description": "Additional control-panel that allow users to search which contents using a specific block",
   "main": "src/index.ts",
@@ -11,10 +11,10 @@
     "react"
   ],
   "author": "RedTurtle Technology",
-  "homepage": "https://github.com/collective/collective-blockslisting#readme",
+  "homepage": "https://github.com/collective/collective-searchblocks#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:collective/collective-blockslisting"
+    "url": "git@github.com:collective/collective-searchblocks"
   },
   "publishConfig": {
     "access": "public"

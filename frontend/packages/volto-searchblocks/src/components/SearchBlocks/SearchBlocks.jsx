@@ -140,7 +140,7 @@ const SearchBlocks = (props) => {
   };
 
   return (
-    <Container className="view-wrapper controlpanel-blocks-search">
+    <Container className="view-wrapper controlpanel-blocks-search cms-ui">
       <Helmet title={intl.formatMessage(messages.pageTitle)} />
       <Segment.Group raised>
         <Segment className="primary">
@@ -153,7 +153,7 @@ const SearchBlocks = (props) => {
         </Segment>
 
         <Segment>
-          <div className="blocks-search-controls">
+          <div className="blocks-search-controls ui form">
             <label style={{ display: 'block', marginBottom: '0.5rem' }}>
               <FormattedMessage {...messages.selectBlockType} />
             </label>

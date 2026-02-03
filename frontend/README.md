@@ -1,10 +1,10 @@
-# Blocks listing (volto-blockslisting)
+# Search blocks (volto-searchblocks)
 
 A Volto add-on that provides a control panel for searching and managing content that uses specific blocks.
 
-[![npm](https://img.shields.io/npm/v/volto-blockslisting)](https://www.npmjs.com/package/volto-blockslisting)
-[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://collective.github.io/volto-blockslisting/)
-[![CI](https://github.com/collective/collective-blockslisting/actions/workflows/main.yml/badge.svg)](https://github.com/collective/collective-blockslisting/actions/workflows/main.yml)
+[![npm](https://img.shields.io/npm/v/volto-searchblocks)](https://www.npmjs.com/package/volto-searchblocks)
+[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://collective.github.io/volto-searchblocks/)
+[![CI](https://github.com/collective/collective-searchblocks/actions/workflows/main.yml/badge.svg)](https://github.com/collective/collective-searchblocks/actions/workflows/main.yml)
 
 
 ## Features ✨
@@ -24,24 +24,24 @@ To install your project, you must choose the method appropriate to your version 
 
 ### Volto 18 and later
 
-Add `volto-blockslisting` to your `package.json`.
+Add `volto-searchblocks` to your `package.json`.
 
 ```json
 "dependencies": {
-    "volto-blockslisting": "*"
+    "volto-searchblocks": "*"
 }
 ```
 
-Add `volto-blockslisting` to your `volto.config.js`.
+Add `volto-searchblocks` to your `volto.config.js`.
 
 ```javascript
-const addons = ['volto-blockslisting'];
+const addons = ['volto-searchblocks'];
 ```
 
 If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`.
 
 ```javascript
-const theme = 'volto-blockslisting';
+const theme = 'volto-searchblocks';
 ```
 
 ### Volto 17 and earlier
@@ -51,19 +51,19 @@ You can skip this step if you already have one.
 
 ```
 npm install -g yo @plone/generator-volto
-yo @plone/volto my-volto-project --addon volto-blockslisting
+yo @plone/volto my-volto-project --addon volto-searchblocks
 cd my-volto-project
 ```
 
-Add `volto-blockslisting` to your `package.json`.
+Add `volto-searchblocks` to your `package.json`.
 
 ```JSON
 "addons": [
-    "volto-blockslisting"
+    "volto-searchblocks"
 ],
 
 "dependencies": {
-    "volto-blockslisting": "*"
+    "volto-searchblocks": "*"
 }
 ```
 
@@ -104,8 +104,8 @@ For these reasons, it only works with pnpm and Volto 18.
 1.  Clone this repository, then change your working directory.
 
     ```shell
-    git clone git@github.com:collective/collective-blockslisting.git
-    cd collective-blockslisting/frontend
+    git clone git@github.com:collective/collective-searchblocks.git
+    cd collective-searchblocks/frontend
     ```
 
 2.  Install this code base.

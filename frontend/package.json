@@ -1,9 +1,9 @@
 {
-  "name": "volto-blockslisting-dev",
+  "name": "volto-searchblocks-dev",
   "version": "1.0.0-alpha.0",
   "description": "Additional control-panel that allow users to search which contents using a specific block",
   "author": "RedTurtle Technology",
-  "homepage": "https://github.com/collective/collective-blockslisting",
+  "homepage": "https://github.com/collective/collective-searchblocks",
   "license": "MIT",
   "keywords": [
     "volto-addon",
@@ -17,7 +17,7 @@
     "start:prod": "pnpm --filter @plone/volto start:prod",
     "build": "VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto build",
     "build:deps": "pnpm --filter @plone/registry --filter @plone/components build",
-    "i18n": "pnpm --filter volto-blockslisting i18n && VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto i18n",
+    "i18n": "pnpm --filter volto-searchblocks i18n && VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto i18n",
     "test": "RAZZLE_JEST_CONFIG=$(pwd)/jest-addon.config.js pnpm --filter @plone/volto test -- --passWithNoTests",
     "lint": "VOLTOCONFIG=$(pwd)/volto.config.js eslint --max-warnings=0 'packages/**/src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "VOLTOCONFIG=$(pwd)/volto.config.js eslint --fix 'packages/**/src/**/*.{js,jsx,ts,tsx}'",
@@ -25,10 +25,10 @@
     "prettier:fix": "prettier --write 'packages/**/src/**/*.{js,jsx,ts,tsx}' ",
     "stylelint": "stylelint 'packages/**/src/**/*.{css,scss,less}' --allow-empty-input",
     "stylelint:fix": "stylelint 'packages/**/src/**/*.{css,scss,less}' --fix --allow-empty-input",
-    "dry-release": "pnpm --filter volto-blockslisting dry-release",
-    "release": "pnpm --filter volto-blockslisting release",
-    "release-major-alpha": "pnpm --filter volto-blockslisting release-major-alpha",
-    "release-alpha": "pnpm --filter volto-blockslisting release-alpha",
+    "dry-release": "pnpm --filter volto-searchblocks dry-release",
+    "release": "pnpm --filter volto-searchblocks release",
+    "release-major-alpha": "pnpm --filter volto-searchblocks release-major-alpha",
+    "release-alpha": "pnpm --filter volto-searchblocks release-alpha",
     "storybook": "VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto storybook dev -p 6006 -c $(pwd)/.storybook",
     "storybook-build": "VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto build-storybook -c $(pwd)/.storybook"
   },
@@ -36,7 +36,7 @@
     "@plone/registry": "workspace:*",
     "@plone/scripts": "^3.10.3",
     "@plone/volto": "workspace:*",
-    "volto-blockslisting": "workspace:*"
+    "volto-searchblocks": "workspace:*"
   },
   "devDependencies": {
     "mrs-developer": "^2.2.0"

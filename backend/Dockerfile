@@ -25,9 +25,9 @@ EOT
 FROM plone/server-prod-config:${PLONE_VERSION}
 
 LABEL maintainer="RedTurtle Technology <sviluppo@redturtle.it>" \
-      org.label-schema.name="collective-blockslisting-backend" \
-      org.label-schema.description="Blocks listing backend image." \
-      org.label-schema.vendor="RedTurtle Technology"
+    org.label-schema.name="collective-searchblocks-backend" \
+    org.label-schema.description="Search blocks backend image." \
+    org.label-schema.vendor="RedTurtle Technology"
 
 # Copy /app from builder
 COPY --from=builder /app /app

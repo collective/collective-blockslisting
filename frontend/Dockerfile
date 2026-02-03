@@ -2,7 +2,7 @@
 ARG VOLTO_VERSION=latest
 FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
 
-COPY --chown=node packages/volto-blockslisting /app/packages/volto-blockslisting
+COPY --chown=node packages/volto-searchblocks /app/packages/volto-searchblocks
 COPY --chown=node volto.config.js /app/
 COPY --chown=node package.json /app/package.json.temp
 COPY --chown=node mrs.developer.json /app/
@@ -24,9 +24,9 @@ EOT
 FROM plone/frontend-prod-config:${VOLTO_VERSION}
 
 LABEL maintainer="RedTurtle Technology <sviluppo@redturtle.it>" \
-      org.label-schema.name="collective-blockslisting-frontend" \
-      org.label-schema.description="Blocks listing frontend image." \
-      org.label-schema.vendor="RedTurtle Technology"
+    org.label-schema.name="collective-searchblocks-frontend" \
+    org.label-schema.description="Search blocks frontend image." \
+    org.label-schema.vendor="RedTurtle Technology"
 
 COPY --from=builder /app/ /app/
 

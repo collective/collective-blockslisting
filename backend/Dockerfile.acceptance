@@ -25,12 +25,12 @@ EOT
 FROM plone/server-acceptance:${PLONE_VERSION}
 
 LABEL maintainer="RedTurtle Technology <sviluppo@redturtle.it>" \
-      org.label-schema.name="collective-blockslisting-acceptance" \
-      org.label-schema.description="Blocks listing backend acceptance image." \
-      org.label-schema.vendor="RedTurtle Technology"
+    org.label-schema.name="collective-searchblocks-acceptance" \
+    org.label-schema.description="Search blocks backend acceptance image." \
+    org.label-schema.vendor="RedTurtle Technology"
 
-ENV CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,collective.blockslisting"
-ENV APPLY_PROFILES="collective.blockslisting:default"
+ENV CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,collective.searchblocks"
+ENV APPLY_PROFILES="collective.searchblocks:default"
 
 # Copy /app from builder
 COPY --from=builder /app /app

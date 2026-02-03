@@ -1,5 +1,5 @@
 [project]
-name = "collective.blockslisting"
+name = "collective.searchblocks"
 dynamic = ["version"]
 description = "Additional control-panel that allow users to search which contents using a specific block"
 readme = "README.md"
@@ -45,10 +45,10 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/collective/collective-blockslisting"
-PyPI = "https://pypi.org/project/collective.blockslisting"
-Source = "https://github.com/collective/collective-blockslisting"
-Tracker = "https://github.com/collective/collective-blockslisting/issues"
+Homepage = "https://github.com/collective/collective-searchblocks"
+PyPI = "https://pypi.org/project/collective.searchblocks"
+Source = "https://github.com/collective/collective-searchblocks"
+Tracker = "https://github.com/collective/collective-searchblocks/issues"
 
 
 [project.entry-points."plone.autoinclude.plugin"]
@@ -58,7 +58,7 @@ target = "plone"
 managed = false
 
 [tool.hatch.version]
-path = "src/collective/blockslisting/__init__.py"
+path = "src/collective/searchblocks/__init__.py"
 
 [build-system]
 requires = ["hatchling"]
@@ -68,7 +68,7 @@ build-backend = "hatchling.build"
 package-dir = {"" = "src"}
 
 [tool.setuptools.dynamic]
-version = {attr = "collective.blockslisting.__version__"}
+version = {attr = "collective.searchblocks.__version__"}
 
 [tool.hatch.build]
 strict-naming = true
@@ -87,7 +87,7 @@ filename = "CHANGELOG.md"
 start_string = "<!-- towncrier release notes start -->\n"
 title_format = "## {version} ({project_date})"
 template = "news/.changelog_template.jinja"
-issue_format = "[#{issue}](https://github.com/collective/collective-blockslisting/issues/{issue})"
+issue_format = "[#{issue}](https://github.com/collective/collective-searchblocks/issues/{issue})"
 underlines = ["", "", ""]
 
 [[tool.towncrier.type]]
@@ -184,9 +184,9 @@ ignore = [
 testpaths = ["tests"]
 
 [tool.coverage.run]
-source_pkgs = ["collective.blockslisting", "tests"]
+source_pkgs = ["collective.searchblocks", "tests"]
 branch = true
 parallel = true
 omit = [
-  "src/collective/blockslisting/locales/*.py",
+  "src/collective/searchblocks/locales/*.py",
 ]

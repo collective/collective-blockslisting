@@ -1,4 +1,4 @@
-# collective.blockslisting
+# collective.searchblocks
 
 A comprehensive Plone add-on that provides search functionality for content using specific blocks.
 
@@ -13,10 +13,10 @@ A comprehensive Plone add-on that provides search functionality for content usin
 
 ## Installation
 
-Install collective.blockslisting with uv.
+Install collective.searchblocks with uv.
 
 ```shell
-uv add collective.blockslisting
+uv add collective.searchblocks
 ```
 
 Create the Plone site.
@@ -72,8 +72,8 @@ Parameters:
 
 ## Contribute
 
-- [Issue tracker](https://github.com/collective/collective-blockslisting/issues)
-- [Source code](https://github.com/collective/collective-blockslisting/)
+- [Issue tracker](https://github.com/collective/collective-searchblocks/issues)
+- [Source code](https://github.com/collective/collective-searchblocks/)
 
 ### Prerequisites ✅
 
@@ -88,8 +88,8 @@ Parameters:
 1.  Clone this repository.
 
     ```shell
-    git clone git@github.com:collective/collective-blockslisting.git
-    cd collective-blockslisting/backend
+    git clone git@github.com:collective/collective-searchblocks.git
+    cd collective-searchblocks/backend
     ```
 
 2.  Install this code base.

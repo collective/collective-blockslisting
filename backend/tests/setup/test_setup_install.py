@@ -1,14 +1,14 @@
-from collective.blockslisting import PACKAGE_NAME
+from collective.searchblocks import PACKAGE_NAME
 
 
 class TestSetupInstall:
     def test_addon_installed(self, installer):
-        """Test if collective.blockslisting is installed."""
+        """Test if collective.searchblocks is installed."""
         assert installer.is_product_installed(PACKAGE_NAME) is True
 
     def test_browserlayer(self, browser_layers):
         """Test that IBrowserLayer is registered."""
-        from collective.blockslisting.interfaces import IBrowserLayer
+        from collective.searchblocks.interfaces import IBrowserLayer
 
         assert IBrowserLayer in browser_layers
 
