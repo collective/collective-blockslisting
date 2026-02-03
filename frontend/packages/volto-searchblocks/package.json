@@ -1,6 +1,6 @@
 {
   "name": "volto-searchblocks",
-  "version": "1.0.0-alpha.0",
+  "version": "0.1.0",
   "description": "Additional control-panel that allow users to search which contents using a specific block",
   "main": "src/index.ts",
   "license": "MIT",
@@ -36,6 +36,7 @@
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
     "release-it": "^19.0.5",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "@plone/scripts": "^3.10.3"
   }
 }
