@@ -7,3 +7,26 @@
 -->
 
 <!-- towncrier release notes start -->
+## 0.1.0.dev3 (2026-02-05)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+
+#### Internal
+
+- Initial release @cekk [#first-release](https://github.com/collective/collective-searchblocks/pull/first-release)
+
+
+
