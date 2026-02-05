@@ -7,6 +7,29 @@
 -->
 
 <!-- towncrier release notes start -->
+## 0.1.10 (2026-02-05)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+
+#### Internal
+
+- fix release @cekk [##](https://github.com/collective/collective-searchblocks/pull/#)
+
+
+
 ## 0.1.0.dev3 (2026-02-05)
 
 ### Backend
