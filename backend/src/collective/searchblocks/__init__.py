@@ -5,7 +5,7 @@ from zope.i18nmessageid import MessageFactory
 import logging
 
 
-__version__ = "0.1.13"
+__version__ = "0.1.15"
 
 PACKAGE_NAME = "collective.searchblocks"
 
