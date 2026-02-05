@@ -14,7 +14,7 @@
   "homepage": "https://github.com/collective/collective-searchblocks#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:collective/collective-searchblocks"
+    "url": "git+ssh://git@github.com/collective/collective-searchblocks.git"
   },
   "publishConfig": {
     "access": "public",
