@@ -1,5 +1,5 @@
 {
-  "name": "@redturtle/volto-searchblocks",
+  "name": "volto-searchblocks",
   "version": "0.1.5",
   "description": "Additional control-panel that allow users to search which contents using a specific block",
   "main": "src/index.ts",
