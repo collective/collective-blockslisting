@@ -9,25 +9,30 @@ issue_format = "[#{issue}](https://github.com/collective/collective-searchblocks
 
 [[tool.towncrier.type]]
 directory = "breaking"
-name = "Breaking"
+name = "Breaking changes:"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "feature"
-name = "Feature"
+name = "New features:"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "bugfix"
-name = "Bugfix"
+name = "Bug fixes:"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "internal"
-name = "Internal"
+name = "Internal:"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "documentation"
-name = "Documentation"
+name = "Documentation:"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "tests"
+name = "Tests"
 showcontent = true
