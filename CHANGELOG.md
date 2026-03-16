@@ -7,6 +7,29 @@
 -->
 
 <!-- towncrier release notes start -->
+## 0.1.22 (2026-03-16)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+
+#### Internal:
+
+- disable "publish" flag in repository.toml to fix frontend release. @cekk 
+
+
+
 ## 0.1.21 (2026-03-03)
 
 ### Backend

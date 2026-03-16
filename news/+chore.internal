@@ -1,1 +1,0 @@
-disable "publish" flag in repository.toml to fix frontend release. @cekk 
