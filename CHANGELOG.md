@@ -7,6 +7,29 @@
 -->
 
 <!-- towncrier release notes start -->
+## 0.2.0a1 (2026-03-30)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+
+#### Internal:
+
+- Fix release @cekk 
+
+
+
 ## 0.2.0a0 (2026-03-30)
 
 ### Backend
