@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 0.2.0-alpha.0 (2026-03-30)
+
+### Feature
+
+- Some style fixes @giulio-red-turtle 
+
 ## 0.1.22 (2026-03-16)
 
 ## 0.1.21 (2026-03-03)

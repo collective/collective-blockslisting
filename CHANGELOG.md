@@ -7,6 +7,32 @@
 -->
 
 <!-- towncrier release notes start -->
+## 0.2.0a0 (2026-03-30)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+#### Feature
+
+- Some style fixes @giulio-red-turtle 
+
+
+
+### Project
+
+
+#### Internal:
+
+- Automated release script. @cekk 
+
+
+
 ## 0.1.22 (2026-03-16)
 
 ### Backend
