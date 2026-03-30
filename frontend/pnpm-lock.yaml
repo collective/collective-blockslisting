@@ -8148,8 +8148,8 @@ packages:
     peerDependencies:
       webpack: ^4.0.0
 
-  file-selector@0.1.20:
-    resolution: {integrity: sha512-kCWw3+Aai8Uox+5tHCNgMFaUdgidxvMnLWO6fM5sZ0hA2wlHP5/DHGF0ECe84BiB95qdJbKNEJhWKVDvMN+JDQ==, tarball: https://registry.npmjs.org/file-selector/-/file-selector-0.1.20.tgz}
+  file-selector@0.1.19:
+    resolution: {integrity: sha512-kCWw3+Aai8Uox+5tHCNgMFaUdgidxvMnLWO6fM5sZ0hA2wlHP5/DHGF0ECe84BiB95qdJbKNEJhWKVDvMN+JDQ==}
     engines: {node: '>= 10'}
 
   filelist@1.0.4:
@@ -23557,7 +23557,7 @@ snapshots:
       schema-utils: 2.7.1
       webpack: 5.90.1(esbuild@0.25.12)
 
-  file-selector@0.1.20:
+  file-selector@0.1.19:
     dependencies:
       tslib: 2.8.1
 
@@ -28648,7 +28648,7 @@ snapshots:
   react-dropzone@11.1.0(react@18.2.0):
     dependencies:
       attr-accept: 2.2.5
-      file-selector: 0.1.20
+      file-selector: 0.1.19
       prop-types: 15.7.2
       react: 18.2.0
 
