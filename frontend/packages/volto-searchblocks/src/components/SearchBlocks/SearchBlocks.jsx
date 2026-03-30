@@ -14,6 +14,7 @@ import { useClient } from '@plone/volto/hooks';
 import { useIntl, FormattedMessage, defineMessages } from 'react-intl';
 import config from '@plone/volto/registry';
 import { searchBlocks } from '../../actions/searchBlocks';
+import './SearchBlocks.css';
 
 const messages = defineMessages({
   pageTitle: {
