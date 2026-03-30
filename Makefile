@@ -131,6 +131,13 @@ i18n:  ## Update locales
 test:  backend-test frontend-test ## Test codebase
 
 ###########################################
+# Release
+###########################################
+.PHONY: release
+release:  ## Release new version (requires PYPI_TOKEN and NPM_TOKEN)
+	@bash ./scripts/release.sh
+
+###########################################
 # Container images
 ###########################################
 .PHONY: build-images

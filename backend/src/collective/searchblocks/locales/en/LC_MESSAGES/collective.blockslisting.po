@@ -15,6 +15,14 @@ msgstr ""
 "Domain: DOMAIN\n"
 
 #: collective/searchblocks/profiles.zcml:22
+msgid "Create example content to showcase the new website"
+msgstr ""
+
+#: collective/searchblocks/profiles.zcml:13
+msgid "Package to configure a new Search blocks site"
+msgstr ""
+
+#: collective/searchblocks/profiles.zcml:22
 msgid "Search blocks: Example content"
 msgstr ""
 
@@ -24,14 +32,6 @@ msgstr ""
 
 #: collective/searchblocks/profiles.zcml:30
 msgid "Search blocks: Uninstall"
-msgstr ""
-
-#: collective/searchblocks/profiles.zcml:22
-msgid "Create example content to showcase the new website"
-msgstr ""
-
-#: collective/searchblocks/profiles.zcml:13
-msgid "Package to configure a new Search blocks site"
 msgstr ""
 
 #: collective/searchblocks/profiles.zcml:30
