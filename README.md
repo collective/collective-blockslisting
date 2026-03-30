@@ -168,7 +168,7 @@ Before running the release command, set up the required environment variables an
 
 ```bash
 # PyPI authentication
-export PYPI_TOKEN="your-pypi-token"
+export UV_PUBLISH_TOKEN="your-pypi-token"
 
 # NPM authentication  
 export NPM_TOKEN="your-npm-token"
