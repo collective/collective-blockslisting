@@ -8,19 +8,18 @@ echo ""
 
 # Check required environment variables
 echo "Checking required environment variables..."
-REQUIRED_VARS=("UV_PUBLISH_TOKEN" "NPM_TOKEN")
+REQUIRED_VARS=("UV_PUBLISH_TOKEN")
 for var in "${REQUIRED_VARS[@]}"; do
     if [ -z "${!var}" ]; then
         echo "❌ Error: $var is not set"
         echo ""
         echo "Please set the following environment variables:"
         echo "  export UV_PUBLISH_TOKEN='your-pypi-token'"
-        echo "  export NPM_TOKEN='your-npm-token'"
         echo "  export GITHUB_TOKEN='your-github-token'  # optional, for GitHub releases"
         exit 1
     fi
 done
-echo "✅ All required environment variables are set"
+echo "✅ Required environment variables are set"
 echo ""
 
 # Setup Node.js
