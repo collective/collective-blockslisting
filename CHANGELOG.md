@@ -7,6 +7,30 @@
 -->
 
 <!-- towncrier release notes start -->
+## 0.3.0a0 (2026-04-03)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+#### Internal
+
+- Fix npm release. @cekk 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 0.2.2 (2026-03-31)
 
 ### Backend
