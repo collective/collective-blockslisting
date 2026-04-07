@@ -1,7 +1,12 @@
 .ReactVirtualized__Grid.ReactVirtualized__List {
-  width: 100%;
+  width: 100% !important;
 }
 
 .ReactVirtualized__Grid__innerScrollContainer {
-  max-width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.react-select__menu {
+  z-index: 99;
 }
