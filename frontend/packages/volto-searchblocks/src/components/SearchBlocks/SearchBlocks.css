@@ -10,3 +10,11 @@
 .react-select__menu {
   z-index: 99;
 }
+
+.blocks-search-results .ui.table th {
+  white-space: nowrap;
+}
+
+.blocks-search-results .ui.table td:nth-child(n+2) {
+  white-space: nowrap;
+}
