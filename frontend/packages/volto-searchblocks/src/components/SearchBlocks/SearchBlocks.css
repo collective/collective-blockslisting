@@ -15,6 +15,6 @@
   white-space: nowrap;
 }
 
-.blocks-search-results .ui.table td:nth-child(n+2) {
+.blocks-search-results .ui.table td:nth-child(n + 2) {
   white-space: nowrap;
 }
