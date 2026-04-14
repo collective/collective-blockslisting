@@ -7,6 +7,30 @@
 -->
 
 <!-- towncrier release notes start -->
+## 0.3.0a3 (2026-04-14)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Fixed table layout/css. @giulio-red-turtle 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 0.3.0a2 (2026-04-03)
 
 ### Backend

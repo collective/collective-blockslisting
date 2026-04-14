@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 0.3.0-alpha.3 (2026-04-14)
+
+### Bugfix
+
+- Fixed table layout/css. @giulio-red-turtle 
+
 ## 0.3.0-alpha.2 (2026-04-03)
 
 ## 0.3.0-alpha.1 (2026-04-03)
