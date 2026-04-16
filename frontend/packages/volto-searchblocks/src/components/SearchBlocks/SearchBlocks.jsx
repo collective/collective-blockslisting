@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
-import { Container, Segment, Header, Table } from 'semantic-ui-react';
+import { Container, Segment, Header, Table, Loader } from 'semantic-ui-react';
 import { Helmet } from '@plone/volto/helpers';
 import { SelectWidget } from '@plone/volto/components';
 import Toolbar from '@plone/volto/components/manage/Toolbar/Toolbar';
@@ -174,9 +174,9 @@ const SearchBlocks = (props) => {
         <Segment>
           <div className="blocks-search-results">
             {loading && (
-              <div className="loader">
+              <Loader active inline="centered" size="medium">
                 <FormattedMessage {...messages.loading} />
-              </div>
+              </Loader>
             )}
 
             {!loading && items && items.length > 0 && (

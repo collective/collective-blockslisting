@@ -1,5 +1,5 @@
 import {
-  SEARCH_BLOCKS,
+  SEARCH_BLOCKS_PENDING,
   SEARCH_BLOCKS_SUCCESS,
   SEARCH_BLOCKS_FAIL,
 } from '../constants/ActionTypes';
@@ -17,7 +17,7 @@ const initialState = {
 
 export default function searchBlocks(state = initialState, action = {}) {
   switch (action.type) {
-    case SEARCH_BLOCKS:
+    case SEARCH_BLOCKS_PENDING:
       return {
         ...state,
         error: null,
