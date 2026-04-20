@@ -164,7 +164,12 @@ const SearchBlocks = (props) => {
               required={false}
               value={selectedBlockType || ''}
               onChange={(id, value) => handleSelect(value)}
-              choices={block_types?.map((type) => [type, type]) || []}
+              choices={
+                block_types?.map((type) => [
+                  type,
+                  config.blocks.blocksConfig[type]?.title || type,
+                ]) || []
+              }
               wrapped={false}
               isClearable={false}
             />
@@ -255,7 +260,9 @@ const SearchBlocks = (props) => {
                   {...messages.noResults}
                   values={{ blockType: selectedBlockType }}
                 />{' '}
-                {selectedBlockType}.
+                {config.blocks.blocksConfig[selectedBlockType]?.title ||
+                  selectedBlockType}
+                .
               </p>
             )}
           </div>
