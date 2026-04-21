@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2026-01-27T12:21:38.702Z\n"
+"POT-Creation-Date: 2026-04-21T10:14:53.092Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -82,4 +82,29 @@ msgstr ""
 #. Default: "Type"
 #: components/SearchBlocks/SearchBlocks
 msgid "Type"
+msgstr ""
+
+#. Default: "Draft"
+#: components/SearchBlocks/SearchBlocks
+msgid "draft"
+msgstr ""
+
+#. Default: "Intranet"
+#: components/SearchBlocks/SearchBlocks
+msgid "intranet"
+msgstr ""
+
+#. Default: "Pending"
+#: components/SearchBlocks/SearchBlocks
+msgid "pending"
+msgstr ""
+
+#. Default: "Private"
+#: components/SearchBlocks/SearchBlocks
+msgid "private"
+msgstr ""
+
+#. Default: "Published"
+#: components/SearchBlocks/SearchBlocks
+msgid "published"
 msgstr ""
