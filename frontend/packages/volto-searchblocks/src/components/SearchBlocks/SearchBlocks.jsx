@@ -74,6 +74,26 @@ const messages = defineMessages({
     id: 'Back to Control Panel',
     defaultMessage: 'Back to Control Panel',
   },
+  private: {
+    id: 'private',
+    defaultMessage: 'Private',
+  },
+  pending: {
+    id: 'pending',
+    defaultMessage: 'Pending',
+  },
+  published: {
+    id: 'published',
+    defaultMessage: 'Published',
+  },
+  intranet: {
+    id: 'intranet',
+    defaultMessage: 'Intranet',
+  },
+  draft: {
+    id: 'draft',
+    defaultMessage: 'Draft',
+  },
 });
 
 const SearchBlocks = (props) => {
@@ -219,8 +239,14 @@ const SearchBlocks = (props) => {
                         <Table.Cell>
                           <a href={item['@id']}>{item.title}</a>
                         </Table.Cell>
-                        <Table.Cell>{item['@type']}</Table.Cell>
-                        <Table.Cell>{item.review_state}</Table.Cell>
+                        <Table.Cell>{item['Type'] || item['@type']}</Table.Cell>
+                        <Table.Cell>
+                          {item.review_title ||
+                            (messages[item.review_state]
+                              ? intl.formatMessage(messages[item.review_state])
+                              : item.review_state) ||
+                            '-'}
+                        </Table.Cell>
                         <Table.Cell>
                           {item.created
                             ? new Date(item.created).toLocaleDateString()

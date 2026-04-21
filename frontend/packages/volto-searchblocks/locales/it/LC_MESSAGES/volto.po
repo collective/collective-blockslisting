@@ -82,3 +82,28 @@ msgstr "Titolo"
 #: components/SearchBlocks/SearchBlocks
 msgid "Type"
 msgstr "Tipo"
+
+#. Default: "Draft"
+#: components/SearchBlocks/SearchBlocks
+msgid "draft"
+msgstr "Bozza"
+
+#. Default: "Intranet"
+#: components/SearchBlocks/SearchBlocks
+msgid "intranet"
+msgstr "Intranet"
+
+#. Default: "Pending"
+#: components/SearchBlocks/SearchBlocks
+msgid "pending"
+msgstr "In attesa"
+
+#. Default: "Private"
+#: components/SearchBlocks/SearchBlocks
+msgid "private"
+msgstr "Privato"
+
+#. Default: "Published"
+#: components/SearchBlocks/SearchBlocks
+msgid "published"
+msgstr "Pubblicato"

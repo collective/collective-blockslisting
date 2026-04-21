@@ -81,3 +81,28 @@ msgstr ""
 #: components/SearchBlocks/SearchBlocks
 msgid "Type"
 msgstr ""
+
+#. Default: "Draft"
+#: components/SearchBlocks/SearchBlocks
+msgid "draft"
+msgstr ""
+
+#. Default: "Intranet"
+#: components/SearchBlocks/SearchBlocks
+msgid "intranet"
+msgstr ""
+
+#. Default: "Pending"
+#: components/SearchBlocks/SearchBlocks
+msgid "pending"
+msgstr ""
+
+#. Default: "Private"
+#: components/SearchBlocks/SearchBlocks
+msgid "private"
+msgstr ""
+
+#. Default: "Published"
+#: components/SearchBlocks/SearchBlocks
+msgid "published"
+msgstr ""
