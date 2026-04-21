@@ -234,15 +234,11 @@ const SearchBlocks = (props) => {
                         <Table.Cell>
                           <a href={item['@id']}>{item.title}</a>
                         </Table.Cell>
-                        <Table.Cell>
-                          {item['Type'] || item['@type']}
-                        </Table.Cell>
+                        <Table.Cell>{item['Type'] || item['@type']}</Table.Cell>
                         <Table.Cell>
                           {item.review_title ||
                             (messages[item.review_state]
-                              ? intl.formatMessage(
-                                  messages[item.review_state],
-                                )
+                              ? intl.formatMessage(messages[item.review_state])
                               : item.review_state) ||
                             '-'}
                         </Table.Cell>
