@@ -3,7 +3,7 @@ import { SEARCH_BLOCKS } from '../constants/ActionTypes';
 export function searchBlocks(options = {}) {
   const params = {
     sort_on: 'sortable_title',
-    metadata_fields: ['modified', 'created'],
+    metadata_fields: ['modified', 'created', 'Type', 'review_title'],
   };
 
   if (options.block_types) {
